@@ -64,7 +64,7 @@ header {
 }
 
 /* --------------Media queries (MEDIUM Devices) ---------  */
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     header {
         height: 68vh;
@@ -73,7 +73,7 @@ header {
 }
 
 /* --------------Media queries (MEDIUM Devices) ---------  */
-@media screen and(max-width: 600) {
+@media screen and (max-width: 600px) {
     header{
         height: 100vh;
     }
