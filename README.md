@@ -1,3 +1,7 @@
+Welcome to my portfolio project.
+
+As you can see, this is still work in progress. I will update it every once in a while when I have some time off my studies and school projects.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
