@@ -1,9 +1,5 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
 
 // import Swiper core and required modules
 import { Pagination, A11y } from 'swiper';
@@ -16,36 +12,36 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    avatar: AVTR1,
-    name: "Fake Name",
+    avatar: "https://static1.personality-database.com/profile_images/c4eea50d62294c569eb28b2940ca4a3d.png",
+    name: "Harry S. Truman",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus rem at repudiandae nesciunt vero, labore ratione distinctio asperiores consequuntur magni dolores, ipsum officiis assumenda explicabo ut. Nihil, minima eius!",
+    "It is amazing what you can accomplish if you do not care who gets the credit.",
   },
   {
-    avatar: AVTR2,
-    name: "Fake Name",
+    avatar: "https://sevenov.com/wp-content/uploads/2022/07/f-scott-fitzgerald-sketch-1921-20220707.jpg",
+    name: "Scott Fitzgerald",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus rem at repudiandae nesciunt vero, labore ratione distinctio asperiores consequuntur magni dolores, ipsum officiis assumenda explicabo ut. Nihil, minima eius!",
+    "...and Samuel had the little flicker of envy that city people feel toward men who live in the open",
   },
   {
-    avatar: AVTR3,
-    name: "Fake Name",
+    avatar: "https://i0.wp.com/newyorkirisharts.com/wp-content/uploads/2012/10/oscar-wilde-avatar-25791.jpg?ssl=1",
+    name: "Oscar Wilde",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus rem at repudiandae nesciunt vero, labore ratione distinctio asperiores consequuntur magni dolores, ipsum officiis assumenda explicabo ut. Nihil, minima eius!",
+      "If one cannot enjoy reading a book over and over again, there is no use in reading it at all.",
   },
   {
-    avatar: AVTR4,
-    name: "Fake Name",
+    avatar: "https://www.premiere.fr/sites/default/files/styles/scale_crop_560x800/public/2018-04/abaca_504610_007.jpg",
+    name: "Quentin Tarantino",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus rem at repudiandae nesciunt vero, labore ratione distinctio asperiores consequuntur magni dolores, ipsum officiis assumenda explicabo ut. Nihil, minima eius!",
+      "When people ask me if I went to film school I tell them, 'no, I went to films.",
   },
 ];
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Avis clients</h5>
+      <h2>Témoignages</h2>
 
       <Swiper className="container testimonials__container"
             modules={[Pagination, A11y]}
