@@ -41,6 +41,11 @@ header {
 
 /* -----------ME ---------------*/
 
+/* .javier {
+    text-shadow: red -2px 0,
+    var(--color-primary) 2px 0;
+} */
+
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
