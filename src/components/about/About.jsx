@@ -22,31 +22,31 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <BsAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years Working</small>
+              <h5>Qualités</h5>
+              <small>Curieux, Autonome, Proactif</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>300+ Worldwide</small>
-            </article>
-
-            <article className="about__card">
-              <VscFolderLibrary ClassName="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>Équipe</h5>
+              <small>Adaptable, Patient, Pédagogue</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A rerum
-            sequi, vel eius doloribus odit nam voluptas est corrupti labore
-            inventore? Culpa autem hic animi accusamus, provident voluptatem
-            quasi reiciendis?
+            Après 8 années dans l'enseignement et un an d'apprentissage en
+            autonomie sur codecademy à côté de mon travail, j'ai décide de
+            rejoindre la formation FullStack (React.js / Node.js) à la Wild Code
+            School pour professionnaliser ma passion. Trilingue et autonome, je
+            cherche constamment à apprendre et à développer mes compétences.
+            Fort de mes expériences passées dans l’enseignement dans différents
+            pays, j'ai acquis de nombreuses soft-skills qui me permettent de
+            m’adapter facilement à de nouveaux milieux professionnels.
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Contact
+          </a>
         </div>
       </div>
     </section>
