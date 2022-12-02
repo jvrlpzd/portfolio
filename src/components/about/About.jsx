@@ -23,13 +23,25 @@ const About = () => {
             <article className="about__card">
               <BsAward className="about__icon" />
               <h5>Qualités</h5>
-              <small>Curieux, Autonome, Proactif</small>
+              <small>
+                Curieux
+                <br />
+                Autonome
+                <br />
+                Proactif
+              </small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Équipe</h5>
-              <small>Adaptable, Patient, Pédagogue</small>
+              <small>
+                Adaptable
+                <br />
+                Patient
+                <br />
+                Pédagogue
+              </small>
             </article>
           </div>
 
@@ -44,9 +56,11 @@ const About = () => {
             m’adapter facilement à de nouveaux milieux professionnels.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
-            Contact
-          </a>
+          <div className="about-btn">
+            <a href="#contact" className="btn btn-primary">
+              Contact
+            </a>
+          </div>
         </div>
       </div>
     </section>

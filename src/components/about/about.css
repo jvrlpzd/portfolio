@@ -84,6 +84,11 @@ about__card h5 {
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
+
+    .about-btn {
+        display: flex;
+        justify-content: center;
+    }
     
 }
 
