@@ -48,14 +48,6 @@ const projets = [
     demo: "https://plumesetgraines.fr/",
     video: ""
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Project 6",
-    github: "https://github.com/jvrlpzd",
-    demo: "https://github.com/jvrlpzd",
-    video: ""
-  },
 ];
 
 const Portfolio = () => {
