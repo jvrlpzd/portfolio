@@ -81,6 +81,10 @@ header {
 
 /* --------------Media queries (MEDIUM Devices) ---------  */
 @media screen and (max-width: 1024px) {
+
+    .javier {
+        font-size: 3rem;
+    }
     
 }
 
@@ -89,6 +93,7 @@ header {
     header{
         height: 100vh;
     }
+
 
     .header__socials, 
     .scroll__down {
