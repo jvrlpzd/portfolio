@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 14rem;
+    padding-top: 12rem;
     overflow: hidden;
     background-image: url("https://i.imgur.com/Tyz6ij3.jpg");
     background-size: cover;
@@ -11,6 +11,10 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
+}
+
+.javier {
+    font-size: 4rem;
 }
 
 .dev {

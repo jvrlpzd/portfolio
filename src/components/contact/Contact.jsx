@@ -49,7 +49,7 @@ const Contact = () => {
             <BsLinkedin className="contact__option-icon" />
             <h4>LinkedIn</h4>
             <h5>Javier Lopez Dominguez</h5>
-            <a href="linkedin.com" target="_blank">
+            <a href="https://www.linkedin.com/in/javierlopezd/" target="_blank">
               Contact via LinkedIn
             </a>
           </article>

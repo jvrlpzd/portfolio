@@ -13,24 +13,24 @@ const projets = [
     image: IMG1,
     title: "Sentiers Perdus",
     github: "https://github.com/jvrlpzd/sentiers-perdus",
-    demo: "https://github.com/jvrlpzd",
-    video: ""
+    demo: "https://www.youtube.com/watch?v=gPlwe454UCU",
+    video: "https://www.youtube.com/watch?v=gPlwe454UCU"
   },
   {
     id: 2,
     image: IMG2,
     title: "Virtual Met'Art",
     github: "https://github.com/jvrlpzd/VirtualMetArt",
-    demo: "https://github.com/jvrlpzd",
-    video: ""
+    demo: "https://www.youtube.com/watch?v=f53XHcThWIs",
+    video: "https://www.youtube.com/watch?v=f53XHcThWIs"
   },
   {
     id: 3,
     image: IMG3,
     title: "Pas à Pas",
     github: "https://github.com/jvrlpzd/TakeItEasy",
-    demo: "https://github.com/jvrlpzd",
-    video: ""
+    demo: "https://www.youtube.com/watch?v=QmTEQYGcjLI",
+    video: "https://www.youtube.com/watch?v=QmTEQYGcjLI"
   },
   {
     id: 4,
