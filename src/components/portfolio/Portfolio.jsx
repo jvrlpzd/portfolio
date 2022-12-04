@@ -12,36 +12,41 @@ const projets = [
     id: 1,
     image: IMG1,
     title: "Sentiers Perdus",
-    github: "https://github.com/jvrlpzd",
+    github: "https://github.com/jvrlpzd/sentiers-perdus",
     demo: "https://github.com/jvrlpzd",
+    video: ""
   },
   {
     id: 2,
     image: IMG2,
-    title: "Project 2",
-    github: "https://github.com/jvrlpzd",
+    title: "Virtual Met'Art",
+    github: "https://github.com/jvrlpzd/VirtualMetArt",
     demo: "https://github.com/jvrlpzd",
+    video: ""
   },
   {
     id: 3,
     image: IMG3,
-    title: "Project 3",
-    github: "https://github.com/jvrlpzd",
+    title: "Pas à Pas",
+    github: "https://github.com/jvrlpzd/TakeItEasy",
     demo: "https://github.com/jvrlpzd",
+    video: ""
   },
   {
     id: 4,
     image: IMG4,
-    title: "Project 4",
-    github: "https://github.com/jvrlpzd",
+    title: "Portfolio",
+    github: "https://github.com/jvrlpzd/portfolio",
     demo: "https://github.com/jvrlpzd",
+    video: ""
   },
   {
     id: 5,
     image: IMG5,
-    title: "Project 5",
-    github: "https://github.com/jvrlpzd",
-    demo: "https://github.com/jvrlpzd",
+    title: "Plumes et Graines (2020)",
+    github: "https://plumesetgraines.fr/",
+    demo: "https://plumesetgraines.fr/",
+    video: ""
   },
   {
     id: 6,
@@ -49,6 +54,7 @@ const projets = [
     title: "Project 6",
     github: "https://github.com/jvrlpzd",
     demo: "https://github.com/jvrlpzd",
+    video: ""
   },
 ];
 
@@ -67,11 +73,11 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn">
+                <a href={github} className="btn" target="_blank">
                   GitHub
                 </a>
                 <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo
+                  Aperçu
                 </a>
               </div>
             </article>

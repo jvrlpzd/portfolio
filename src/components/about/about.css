@@ -69,6 +69,11 @@ about__card h5 {
     color: var(--color-light);
 }
 
+p a {
+    color: var(--color-light);
+    text-decoration: underline;
+}
+
 /* --------------Media queries (MEDIUM Devices) ---------  */
 @media screen and (max-width: 1024px) {
     .about__container {
