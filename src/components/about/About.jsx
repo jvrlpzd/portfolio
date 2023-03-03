@@ -8,9 +8,9 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
     <section id="about">
+      // TODO: Modifier les textes
       <h5>Qui suis-je?</h5>
       <h2>Mieux me connaître</h2>
-
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -47,10 +47,19 @@ const About = () => {
 
           <p>
             Après 8 années dans l'enseignement et un an d'apprentissage en
-            autonomie sur la plateforme <a href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">Codecademy.com</a> en parallèle de mon
-            travail, j'ai décidé de rejoindre la formation FullStack (React.js /
-            Node.js) à la Wild Code School pour professionnaliser ma passion.
-            <br /><br />
+            autonomie sur la plateforme{" "}
+            <a
+              href="https://www.codecademy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Codecademy.com
+            </a>{" "}
+            en parallèle de mon travail, j'ai décidé de rejoindre la formation
+            FullStack (React.js / Node.js) à la Wild Code School pour
+            professionnaliser ma passion.
+            <br />
+            <br />
             Trilingue et autonome, je cherche constamment à apprendre et à
             développer mes compétences. Fort de mes expériences passées dans
             l’enseignement dans différents pays, j'ai acquis de nombreuses
